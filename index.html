@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,31 +29,63 @@
     <div class="ambient ambient-one"></div>
     <div class="ambient ambient-two"></div>
 
-    <!-- Navigation -->
+
+    <!-- ================================
+         Navigation
+    ================================= -->
+
     <header class="navbar">
-        <a href="#home" class="logo">
-            <span class="logo-symbol">☾</span>
-            Serenity Within
+
+        <a href="#home" class="logo" aria-label="Serenity Within home">
+
+            <img
+                src="jllogo.png"
+                alt="Serenity Within logo"
+                class="site-logo"
+            >
+
+            <span class="logo-text">
+                Serenity Within
+            </span>
+
         </a>
 
-        <button class="menu-toggle" aria-label="Toggle menu">
+
+        <button
+            class="menu-toggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+            type="button"
+        >
             <span></span>
             <span></span>
             <span></span>
         </button>
 
-        <nav class="nav-links">
+
+        <nav class="nav-links" aria-label="Main navigation">
+
             <a href="#about">About</a>
+
             <a href="#services">Services</a>
+
             <a href="#journey">Your Journey</a>
-            <a href="#contact" class="nav-button">Book a Session</a>
+
+            <a href="#contact" class="nav-button">
+                Book a Session
+            </a>
+
         </nav>
+
     </header>
 
 
     <main>
 
-        <!-- Hero -->
+        <!-- ================================
+             Hero
+        ================================= -->
+
         <section class="hero" id="home">
 
             <div class="hero-content">
@@ -72,7 +105,9 @@
                     rediscover the wisdom already within you.
                 </p>
 
+
                 <div class="hero-buttons">
+
                     <a href="#contact" class="btn btn-primary">
                         <span>Begin Your Journey</span>
                         <span class="btn-arrow">→</span>
@@ -81,37 +116,71 @@
                     <a href="#services" class="btn btn-ghost">
                         Explore My Services
                     </a>
+
                 </div>
 
+
                 <div class="hero-note">
+
                     <span class="line"></span>
-                    <span>Healing begins with a single breath</span>
+
+                    <span>
+                        Healing begins with a single breath
+                    </span>
+
                     <span class="line"></span>
+
                 </div>
 
             </div>
+
 
             <div class="hero-visual">
 
                 <div class="sun-glow"></div>
 
+
                 <div class="portrait-frame">
+
                     <div class="portrait-placeholder">
+
                         <div class="portrait-overlay">
+
                             <span>YOUR PHOTO</span>
-                            <small>Replace with your image</small>
+
+                            <small>
+                                Replace with your image
+                            </small>
+
                         </div>
+
                     </div>
+
                 </div>
+
 
                 <div class="floating-card card-one">
+
                     <span>✦</span>
-                    <p>Mind<br>Body<br>Spirit</p>
+
+                    <p>
+                        Mind<br>
+                        Body<br>
+                        Spirit
+                    </p>
+
                 </div>
 
+
                 <div class="floating-card card-two">
+
                     <span>☾</span>
-                    <p>Find your<br>inner calm</p>
+
+                    <p>
+                        Find your<br>
+                        inner calm
+                    </p>
+
                 </div>
 
             </div>
@@ -119,7 +188,10 @@
         </section>
 
 
-        <!-- About -->
+        <!-- ================================
+             About
+        ================================= -->
+
         <section class="about section" id="about">
 
             <div class="section-label">
@@ -127,16 +199,22 @@
                 <span>About</span>
             </div>
 
+
             <div class="about-grid">
 
                 <div class="about-heading">
-                    <p class="eyebrow">A space to simply be</p>
+
+                    <p class="eyebrow">
+                        A space to simply be
+                    </p>
 
                     <h2>
                         You don't have to
                         <em>heal alone.</em>
                     </h2>
+
                 </div>
+
 
                 <div class="about-text">
 
@@ -155,7 +233,8 @@
                     </p>
 
                     <a href="#contact" class="text-link">
-                        Let's connect <span>→</span>
+                        Let's connect
+                        <span>→</span>
                     </a>
 
                 </div>
@@ -165,23 +244,33 @@
         </section>
 
 
-        <!-- Services -->
+        <!-- ================================
+             Services
+        ================================= -->
+
         <section class="services section" id="services">
 
             <div class="section-intro">
 
                 <div class="section-label">
+
                     <span>02</span>
                     <span>Services</span>
+
                 </div>
 
+
                 <div>
-                    <p class="eyebrow">Ways we can work together</p>
+
+                    <p class="eyebrow">
+                        Ways we can work together
+                    </p>
 
                     <h2>
                         Nurture your
                         <em>whole self.</em>
                     </h2>
+
                 </div>
 
             </div>
@@ -189,13 +278,20 @@
 
             <div class="service-grid">
 
+
                 <article class="service-card">
 
-                    <div class="service-number">01</div>
+                    <div class="service-number">
+                        01
+                    </div>
 
-                    <div class="service-icon">☾</div>
+                    <div class="service-icon">
+                        ☾
+                    </div>
 
-                    <h3>Holistic Therapy</h3>
+                    <h3>
+                        Holistic Therapy
+                    </h3>
 
                     <p>
                         A nurturing therapeutic space to explore your emotions,
@@ -204,7 +300,8 @@
                     </p>
 
                     <a href="#contact" class="service-link">
-                        Learn more <span>→</span>
+                        Learn more
+                        <span>→</span>
                     </a>
 
                 </article>
@@ -212,11 +309,17 @@
 
                 <article class="service-card featured">
 
-                    <div class="service-number">02</div>
+                    <div class="service-number">
+                        02
+                    </div>
 
-                    <div class="service-icon">✧</div>
+                    <div class="service-icon">
+                        ✧
+                    </div>
 
-                    <h3>Mindful Healing</h3>
+                    <h3>
+                        Mindful Healing
+                    </h3>
 
                     <p>
                         Gentle practices designed to help you become more
@@ -225,7 +328,8 @@
                     </p>
 
                     <a href="#contact" class="service-link">
-                        Learn more <span>→</span>
+                        Learn more
+                        <span>→</span>
                     </a>
 
                 </article>
@@ -233,11 +337,17 @@
 
                 <article class="service-card">
 
-                    <div class="service-number">03</div>
+                    <div class="service-number">
+                        03
+                    </div>
 
-                    <div class="service-icon">❋</div>
+                    <div class="service-icon">
+                        ❋
+                    </div>
 
-                    <h3>Inner Wellness</h3>
+                    <h3>
+                        Inner Wellness
+                    </h3>
 
                     <p>
                         Personalised sessions supporting self-discovery,
@@ -246,27 +356,38 @@
                     </p>
 
                     <a href="#contact" class="service-link">
-                        Learn more <span>→</span>
+                        Learn more
+                        <span>→</span>
                     </a>
 
                 </article>
+
 
             </div>
 
         </section>
 
 
-        <!-- Quote -->
+        <!-- ================================
+             Quote
+        ================================= -->
+
         <section class="quote-section">
 
-            <div class="quote-symbol">“</div>
+            <div class="quote-symbol">
+                “
+            </div>
 
             <blockquote>
+
                 There is a quiet wisdom within you.
                 <br>
+
                 Sometimes, you simply need space
                 <br>
+
                 to hear it.
+
             </blockquote>
 
             <span class="quote-line"></span>
@@ -274,59 +395,98 @@
         </section>
 
 
-        <!-- Journey -->
+        <!-- ================================
+             Journey
+        ================================= -->
+
         <section class="journey section" id="journey">
 
             <div class="section-label">
+
                 <span>03</span>
                 <span>Your Journey</span>
+
             </div>
+
 
             <div class="journey-grid">
 
                 <div>
-                    <p class="eyebrow">A gentle beginning</p>
+
+                    <p class="eyebrow">
+                        A gentle beginning
+                    </p>
 
                     <h2>
                         Your healing journey
                         <em>starts here.</em>
                     </h2>
+
                 </div>
+
 
                 <div class="steps">
 
+
                     <div class="step">
+
                         <span>01</span>
+
                         <div>
-                            <h3>Connect</h3>
+
+                            <h3>
+                                Connect
+                            </h3>
+
                             <p>
                                 We begin with a relaxed conversation about
                                 where you are and what you need.
                             </p>
+
                         </div>
+
                     </div>
 
+
                     <div class="step">
+
                         <span>02</span>
+
                         <div>
-                            <h3>Explore</h3>
+
+                            <h3>
+                                Explore
+                            </h3>
+
                             <p>
                                 Together we gently explore patterns, emotions
                                 and experiences that may be asking for attention.
                             </p>
+
                         </div>
+
                     </div>
 
+
                     <div class="step">
+
                         <span>03</span>
+
                         <div>
-                            <h3>Grow</h3>
+
+                            <h3>
+                                Grow
+                            </h3>
+
                             <p>
                                 You develop greater awareness, self-trust and
                                 tools to support your wellbeing beyond our sessions.
                             </p>
+
                         </div>
+
                     </div>
+
 
                 </div>
 
@@ -335,12 +495,17 @@
         </section>
 
 
-        <!-- Contact -->
+        <!-- ================================
+             Contact
+        ================================= -->
+
         <section class="contact section" id="contact">
 
             <div class="contact-inner">
 
-                <p class="eyebrow">Take the first step</p>
+                <p class="eyebrow">
+                    Take the first step
+                </p>
 
                 <h2>
                     Let's create a little more
@@ -352,15 +517,24 @@
                     I'd love to hear from you.
                 </p>
 
-                <a href="mailto:hello@example.com" class="btn btn-primary large">
+
+                <a
+                    href="mailto:hello@example.com"
+                    class="btn btn-primary large"
+                >
                     <span>Book a Session</span>
                     <span class="btn-arrow">→</span>
                 </a>
 
+
                 <p class="contact-details">
+
                     hello@example.com
+
                     <span>•</span>
+
                     London & Online
+
                 </p>
 
             </div>
@@ -370,23 +544,48 @@
     </main>
 
 
-    <!-- Footer -->
+    <!-- ================================
+         Footer
+    ================================= -->
+
     <footer>
 
         <div class="footer-logo">
-            <span>☾</span>
-            Serenity Within
+
+            <img
+                src="jllogo.png"
+                alt="Serenity Within"
+                class="footer-logo-image"
+            >
+
+            <span>
+                Serenity Within
+            </span>
+
         </div>
+
 
         <p>
             Holistic therapy for mind, body & spirit.
         </p>
 
+
         <div class="footer-links">
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#services">
+                Services
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
         </div>
+
 
         <div class="copyright">
             © 2026 Serenity Within. All rights reserved.
